@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
-require_relative '../booleans'
+require_relative "../booleans"
 
 module Boolean
+  # Contains additional methods that are added by
+  # the `booleans` gem to `Object`.
   module CoreExtension
     # Convert a Ruby value to `true` or `false`
     # according to the truthiness of the value.

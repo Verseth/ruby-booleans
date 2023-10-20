@@ -29,7 +29,7 @@ class TestBooleans < Minitest::Test
     assert_equal false, false.to_bool
   end
 
-  def test_object_is_a_boolean
+  def test_object_is_a_boolean # rubocop:disable Metrics/AbcSize
     assert_equal false, 5.is_a?(Boolean)
     assert_equal false, 0.is_a?(Boolean)
     assert_equal false, "foo".is_a?(Boolean)

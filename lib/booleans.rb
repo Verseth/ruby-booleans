@@ -9,7 +9,7 @@ require_relative "booleans/version"
 # exception of: `nil` and `false`.
 #
 # @return [Boolean]
-def Boolean(val)
+def Boolean(val) # rubocop:disable Naming/MethodName
   return true if val
 
   false
