@@ -1,0 +1,7 @@
+module Booleans
+  VERSION: String
+
+  def to_bool: () -> bool
+end
+
+def Boolean: (boolish) -> bool
