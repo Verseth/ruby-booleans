@@ -3,5 +3,3 @@ module Booleans
 
   def to_bool: () -> bool
 end
-
-def Boolean: (boolish) -> bool
